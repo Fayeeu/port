@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="48" fill="#2b2622" stroke="#2b2622" stroke-width="4"/>
+  <!-- Cozy face outline inside -->
+  <circle cx="50" cy="50" r="40" fill="#f2e1ce"/>
+  <!-- Hair bang -->
+  <path d="M22 38 Q 38 20 50 36 Q 62 20 78 38 Q 65 24 50 25 Q 35 24 22 38 Z" fill="#2b2622"/>
+  <!-- Happy smiling curved eyes -->
+  <path d="M34 46 Q 39 40 44 46" stroke="#2b2622" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M56 46 Q 61 40 66 46" stroke="#2b2622" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- Rosy cheeks -->
+  <circle cx="32" cy="53" r="5" fill="#e89882" opacity="0.65"/>
+  <circle cx="68" cy="53" r="5" fill="#e89882" opacity="0.65"/>
+  <!-- Warm cute smile -->
+  <path d="M44 56 Q 50 63 56 56" stroke="#2b2622" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+</svg>

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@theme inline {
+  --color-paper: #f2e1ce;
+  --color-card: #eae6da;
+  --color-ink: #2b2622;
+  --color-muted: #8a8279;
+  --font-sans: var(--font-inter), var(--font-thai), ui-sans-serif, system-ui, sans-serif;
+  --font-thai: var(--font-thai), ui-sans-serif, system-ui, sans-serif;
+  --font-hero: var(--font-mali), var(--font-thai), ui-sans-serif, sans-serif;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.animate-shine {
+  animation: shine 5s linear infinite;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: #2b2622;
+  color: #f2e1ce;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
