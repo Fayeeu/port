@@ -66,7 +66,7 @@ export function AboutSection() {
 
               <div className="space-y-3.5 text-[15px] leading-relaxed text-ink/85">
                 <p>
-                  หวัดดี~ เรา <span className="font-bold text-ink">เฟย์</span> เองงเป็นเฟรนลี่(มั้ง) ค่อนข้างขี้เหงาเลยแหละทักมาคุยกันได้นะ:)
+                  หวัดดี~ เรา <span className="font-bold text-ink">เฟย์</span> เองงเป็นคนเฟรนลี่(มั้ง) ค่อนข้างขี้เหงาเลยแหละทักมาคุยกันได้นะ:)
                 </p>
                 <p className="text-muted">
 ตอนนี้ก็17ขวบแล้ว(เร็วจัง😭) เรียนอยู่ที่IEP(Intensive English Program)ค่ะ ไม่บอกหรอกที่ไหนอิอิ ส่วนเป้าหมายเข้าม.เกษตรให้ได้เลยย
